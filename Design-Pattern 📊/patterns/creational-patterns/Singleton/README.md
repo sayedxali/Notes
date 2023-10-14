@@ -61,15 +61,15 @@ The code source : [source folder](./src/President.java)
 
 ```Java
 public static void main(String[]args){
-        // we can't create an instance manually since we made the constructor private
-//  President president = new President();
+    // we can't create an instance manually since we made the constructor private
+//    President president = new President();
 
-        President presidentOne=President.getInstance();
-        President presidentTwo=President.getInstance();
+    President presidentOne=President.getInstance();
+    President presidentTwo=President.getInstance();
 
-        System.out.println("PresidentOne hashCode:- "+presidentOne.hashCode());
-        System.out.println("PresidentTwo hashCode:- "+PresidentTwo.hashCode());
-        }
+    System.out.println("PresidentOne hashCode:- "+presidentOne.hashCode());
+    System.out.println("PresidentTwo hashCode:- "+PresidentTwo.hashCode());
+}
 ```
 
 Output :
