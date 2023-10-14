@@ -1,0 +1,1 @@
+All the things that I learn; I'll try to make notes of them if possible and push them to this repository 😊

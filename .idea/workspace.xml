@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="design pattern: singleton modified &amp; added new notes and files." />
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="unversioned files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Documents/Learning Notes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +60,7 @@
       <updated>1697269469922</updated>
       <workItem from="1697269471400" duration="1548000" />
       <workItem from="1697273677907" duration="8773000" />
+      <workItem from="1697283508244" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -91,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697283426518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="unversioned files">
+      <option name="closed" value="true" />
+      <created>1697283626690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697283626690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +124,7 @@
     <MESSAGE value="deleted md, to pull from github" />
     <MESSAGE value="html &amp; css folder structure" />
     <MESSAGE value="design pattern: singleton modified &amp; added new notes and files." />
-    <option name="LAST_COMMIT_MESSAGE" value="design pattern: singleton modified &amp; added new notes and files." />
+    <MESSAGE value="unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned files" />
   </component>
 </project>
