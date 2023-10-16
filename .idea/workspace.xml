@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="design-pattern: reformat">
-      <change afterPath="$PROJECT_DIR$/Design-Pattern /patterns/creational-patterns/Factory-Method/src2/AndroidDeveloper.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/patterns/creational-patterns/Factory-Method/src2/AndroidDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Pattern /patterns/creational-patterns/Factory-Method/src2/Employee.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/patterns/creational-patterns/Factory-Method/src2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Pattern /patterns/creational-patterns/Factory-Method/src2/WebDeveloper.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/patterns/creational-patterns/Factory-Method/src2/WebDeveloper.java" afterDir="false" />
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="design-pattern: factory">
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/EmailService/src/main/java/com/example/emailservice/EmailServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/EmailService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/config/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/dto/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/java/com/example/orderservice/kafka/OrderProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/OrderService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/SharedLib/src/main/java/com/example/sharedlib/SharedLibApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/SharedLib/src/main/java/com/example/sharedlib/model/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/SharedLib/src/main/java/com/example/sharedlib/model/dto/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/SharedLib/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/StockService/src/main/java/com/example/stockservice/StockServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/EDA-Kafka/code_source/StockService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design-Pattern /patterns/creational-patterns/Factory-Method/README.md" beforePathEscaped="$PROJECT_DIR$/Design-Pattern 📊/patterns/creational-patterns/Factory-Method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Design-Pattern /patterns/creational-patterns/Factory-Method/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/patterns/creational-patterns/Factory-Method/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;design-pattern&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Learning Notes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "kafka",
+    "last_opened_file_path": "D:/Documents/Learning Notes/Java ☕/Spring/EDA-Kafka/code_source/EmailService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\EmailService" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\StockService" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\SharedLib" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\src\main\java\com\example\orderservice\dto" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\src\main\java\com\example\orderservice\controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\OrderService" />
       <recent name="D:\Documents\Learning Notes\Front-End 🖥\html-css" />
       <recent name="D:\Documents\Learning Notes\Front-End 🖥" />
     </key>
@@ -69,6 +91,9 @@
       <workItem from="1697283508244" duration="188000" />
       <workItem from="1697283710700" duration="447000" />
       <workItem from="1697356574235" duration="2649000" />
+      <workItem from="1697441280197" duration="2217000" />
+      <workItem from="1697444893407" duration="1842000" />
+      <workItem from="1697464607620" duration="5428000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -152,5 +177,9 @@
     <MESSAGE value="added readme file" />
     <MESSAGE value="design-pattern: reformat" />
     <option name="LAST_COMMIT_MESSAGE" value="design-pattern: reformat" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
