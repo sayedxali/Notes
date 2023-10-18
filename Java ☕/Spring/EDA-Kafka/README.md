@@ -19,14 +19,19 @@
   * [Install Kafka Using Docker](#install-kafka-using-docker)
   * [Kafka Setup & Run](#kafka-setup--run)
   * [Kafka CLI (skip this)](#kafka-cli-skip-this)
-  * [Kafka Producer](#kafka-producer)
+  * [Kafka Producer 1](#kafka-producer-1)
     * [Configure Kafka Producer In OrderService](#configure-kafka-producer-in-orderservice)
     * [Let's Create **Kafka Topic**](#lets-create-kafka-topic)
     * [Let's Create **Kafka Producer**](#lets-create-kafka-producer)
     * [Let's Create **REST API For Kafka Producer**](#lets-create-rest-api-for-kafka-producer)
-  * [Kafka Consumer](#kafka-consumer)
+  * [Kafka Consumer 1](#kafka-consumer-1)
     * [Configure Kafka Consumer In StockService](#configure-kafka-consumer-in-stockservice)
     * [Let's Create **Kafka Consumer**](#lets-create-kafka-consumer)
+  * [Kafka Producer 2](#kafka-producer-2)
+    * [Configure Kafka Producer In KafkaProducerService](#configure-kafka-producer-in-kafkaproducerservice)
+    * [Let's Create **Kafka Topic**](#lets-create-kafka-topic-1)
+    * [Let's Create **Kafka Producer**](#lets-create-kafka-producer-1)
+    * [Let's Create **REST API For Kafka Producer**](#lets-create-rest-api-for-kafka-producer-1)
 <!-- TOC -->
 
 ## What is event-driven architecture?
@@ -213,6 +218,12 @@ We'll use `docker-compose.yml` file.
 
 The source code : [docker-compose.yml](./code_source/Install-Kafka-With-Docker/docker-compose.yml)
 
+Run the docker-compose file and login into the kafka server using : `docker exec -it kafka /bin/sh`.
+
+Go into the `/opt/kafka.(version)`.
+
+Now you can do whatever you want!
+
 ## Kafka Setup & Run
 
 First download the zip file and extract in the base directory of your C drive (windows).
@@ -267,16 +278,16 @@ Listing all the topics :
 .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --list
 ```
 
-## Kafka Producer
+## Kafka Producer 1
 
 We'll take this as our project :
 <p align="center">
     <img src="images/Image_001.jpg" alt="" width="700px">
 </p>
 
-### Configure Kafka Producer In [OrderService](code_source/OrderService/src/)
+### Configure Kafka Producer In [OrderService](code_source/src/OrderService/src/)
 
-The code source : [application.yaml](code_source/OrderService/src/main/resources/application.yaml)
+The code source : [application.yaml](code_source/src/OrderService/src/main/resources/application.yaml)
 
 ```yaml
 #kafka producer
@@ -300,14 +311,14 @@ spring:
 ### Let's Create **Kafka Topic**
 
 The code
-source : [KafkaTopicConfig](code_source/OrderService/src/main/java/com/example/orderservice/config/KafkaTopicConfig.java)
+source : [KafkaTopicConfig](code_source/src/OrderService/src/main/java/com/example/orderservice/config/KafkaTopicConfig.java)
 
 Firstly we need to retrieve the topic name, and then create a `NewTopic` bean and a build a topic using `TopicBuilder`.
 
 ### Let's Create **Kafka Producer**
 
 The code
-source : [OrderProducer](code_source/OrderService/src/main/java/com/example/orderservice/kafka/OrderProducer.java)
+source : [OrderProducer](code_source/src/OrderService/src/main/java/com/example/orderservice/kafka/OrderProducer.java)
 
 > 💡 So overall the steps is :
 > 1. Create a msg using `NewTopic` bean (that we configured earlier) & `Message` (using `MessageBuilder`).
@@ -316,19 +327,19 @@ source : [OrderProducer](code_source/OrderService/src/main/java/com/example/orde
 ### Let's Create **REST API For Kafka Producer**
 
 The code
-source : [OrderController](code_source/OrderService/src/main/java/com/example/orderservice/controller/OrderController.java)
+source : [OrderController](code_source/src/OrderService/src/main/java/com/example/orderservice/controller/OrderController.java)
 
 > 💡 We're simply creating
-> an [OrderEvent](code_source/SharedLib/src/main/java/com/example/sharedlib/model/dto/OrderEvent.java) which is a simple
+> an [OrderEvent](code_source/src/SharedLib/src/main/java/com/example/sharedlib/model/dto/OrderEvent.java) which is a simple
 > pojo class, and sending it to the kafka topic.
 
-## Kafka Consumer
+## Kafka Consumer 1
 
 StockService & EmailService are our consumers.
 
-### Configure Kafka Consumer In [StockService](./code_source/StockService/src/main)
+### Configure Kafka Consumer In [StockService](code_source/src/StockService/src/main)
 
-The code source : [application.yaml](./code_source/StockService/src/main/resources/application.yaml)
+The code source : [application.yaml](code_source/src/StockService/src/main/resources/application.yaml)
 
 ```yaml
 #kafka consumer
@@ -358,13 +369,56 @@ spring:
 > 2* : We're telling kafka to trust and deserialize all the packages in the project.
 >
 > 3* : It is and should be the same name as the one we mentioned
-> in [OrderService#application.yaml_line15](./code_source/OrderService/src/main/resources/application.yaml)
+> in [OrderService#application.yaml_line15](code_source/src/OrderService/src/main/resources/application.yaml)
 
 ### Let's Create **Kafka Consumer**
 
 The code
-source : [OrderConsumer](./code_source/StockService/src/main/java/com/example/stockservice/kafka/OrderConsumer.java)
+source : [OrderConsumer](code_source/src/StockService/src/main/java/com/example/stockservice/kafka/OrderConsumer.java)
 
 > 💡 And Done! Now if you check your logs, you can see that you have the sent
 > data from the order service!
 
+<br/>
+<hr/>
+
+## Kafka Producer 2
+
+The code source : [code source](./code_source/src2/main)
+
+### Configure Kafka Producer In [KafkaProducerService](code_source/src2/main/java/com/example/kafkajavatechie/service/KafkaProducerService.java)
+
+The code source : [application.yaml](code_source/src2/main/resources/application.yaml)
+
+```yaml
+#this is custom-made var
+spring:
+  kafka:
+    topic:
+      name: new-topic-javatechie
+```
+
+> 💡 We need to configure serializers for key and values; whenever the producer sends an event,
+> that event contains the data as key-value pair, and we need to configure the serializers for them!
+
+### Let's Create **Kafka Topic**
+
+The code source : [KafkaTopicConfig](code_source/src2/main/java/com/example/kafkajavatechie/config/KafkaTopicConfig.java)
+
+Firstly we need to retrieve the topic name, and then create a `NewTopic` bean and a build a topic using `TopicBuilder`.
+
+### Let's Create **Kafka Producer**
+
+The code source : [KafkaProducerService](code_source/src2/main/java/com/example/kafkajavatechie/service/KafkaProducerService.java)
+
+> 💡 So overall the steps is :
+> 1. Create a msg using `NewTopic` bean (that we configured earlier).
+> 2. Send the msg to the kafka topic using `KafkaTemplate`.
+
+### Let's Create **REST API For Kafka Producer**
+
+The code
+source : [EventController](code_source/src2/main/java/com/example/kafkajavatechie/controller/EventController.java)
+
+> 💡 We're simply sending a bulk string message; it'll run in a short amount of time since we specified 
+> multiple partitions and it is asynchronous!
