@@ -16,6 +16,7 @@
     * [- Consumer Groups](#--consumer-groups)
     * [- Zookeeper](#--zookeeper)
   * [Kafka Ecosystem](#kafka-ecosystem)
+  * [Install Kafka Using Docker](#install-kafka-using-docker)
   * [Kafka Setup & Run](#kafka-setup--run)
   * [Kafka CLI (skip this)](#kafka-cli-skip-this)
   * [Kafka Producer](#kafka-producer)
@@ -206,6 +207,12 @@ Let's break the image:
 
   > So remember to start the zookeeper to be able to manage the kafka.
 
+## Install Kafka Using Docker
+
+We'll use `docker-compose.yml` file.
+
+The source code : [docker-compose.yml](./code_source/Install-Kafka-With-Docker/docker-compose.yml)
+
 ## Kafka Setup & Run
 
 First download the zip file and extract in the base directory of your C drive (windows).
@@ -360,3 +367,4 @@ source : [OrderConsumer](./code_source/StockService/src/main/java/com/example/st
 
 > 💡 And Done! Now if you check your logs, you can see that you have the sent
 > data from the order service!
+
