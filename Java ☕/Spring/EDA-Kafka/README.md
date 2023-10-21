@@ -32,6 +32,7 @@
     * [Let's Create **Kafka Topic**](#lets-create-kafka-topic-1)
     * [Let's Create **Kafka Producer**](#lets-create-kafka-producer-1)
     * [Let's Create **REST API For Kafka Producer**](#lets-create-rest-api-for-kafka-producer-1)
+  * [Kafka Consumer 2](#kafka-consumer-2)
 <!-- TOC -->
 
 ## What is event-driven architecture?
@@ -384,11 +385,11 @@ source : [OrderConsumer](code_source/src/StockService/src/main/java/com/example/
 
 ## Kafka Producer 2
 
-The code source : [code source](./code_source/src2/main)
+The code source : [code source](code_source/src2/BulkMessageProducer/src/main)
 
-### Configure Kafka Producer In [KafkaProducerService](code_source/src2/main/java/com/example/kafkajavatechie/service/KafkaProducerService.java)
+### Configure Kafka Producer In [KafkaProducerService](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/service/KafkaProducerService.java)
 
-The code source : [application.yaml](code_source/src2/main/resources/application.yaml)
+The code source : [application.yaml](code_source/src2/BulkMessageProducer/src/main/resources/application.yaml)
 
 ```yaml
 #this is custom-made var
@@ -403,13 +404,13 @@ spring:
 
 ### Let's Create **Kafka Topic**
 
-The code source : [KafkaTopicConfig](code_source/src2/main/java/com/example/kafkajavatechie/config/KafkaTopicConfig.java)
+The code source : [KafkaTopicConfig](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/config/KafkaTopicConfig.java)
 
 Firstly we need to retrieve the topic name, and then create a `NewTopic` bean and a build a topic using `TopicBuilder`.
 
 ### Let's Create **Kafka Producer**
 
-The code source : [KafkaProducerService](code_source/src2/main/java/com/example/kafkajavatechie/service/KafkaProducerService.java)
+The code source : [KafkaProducerService](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/service/KafkaProducerService.java)
 
 > 💡 So overall the steps is :
 > 1. Create a msg using `NewTopic` bean (that we configured earlier).
@@ -418,7 +419,12 @@ The code source : [KafkaProducerService](code_source/src2/main/java/com/example/
 ### Let's Create **REST API For Kafka Producer**
 
 The code
-source : [EventController](code_source/src2/main/java/com/example/kafkajavatechie/controller/EventController.java)
+source : [EventController](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/controller/EventController.java)
 
 > 💡 We're simply sending a bulk string message; it'll run in a short amount of time since we specified 
-> multiple partitions and it is asynchronous!
+> multiple partitions, and it is asynchronous!
+
+## Kafka Consumer 2
+
+The code source : [code source](./code_source/src2/BulkMessageConsumer)
+ 
