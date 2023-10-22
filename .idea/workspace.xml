@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="microservice-design-pattern: saga choreography intro">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/CloudStreamConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/config.stream/CloudStreamConfigConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/CloudStreamProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/config.stream/CloudStreamConfigProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/controller/BookControllerProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/CloudStreamConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/config.stream/CloudStreamConfigConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-consumer/src/main/java/com/javatechie/cloudstream/consumer/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/CloudStreamProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/config.stream/CloudStreamConfigProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/controller/BookControllerProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/src/main/java/com/javatechie/cloudstream/producer/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x/spring-cloud-stream-producer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Cloud-Stream/images/Screenshot 2023-10-20 161934.png" afterDir="false" />
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="kafka: basics-consumer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +30,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="spring-cloud-stream" />
-                    <option name="lastUsedInstant" value="1697805525" />
+                    <option name="lastUsedInstant" value="1697880859" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1697705819" />
+                    <option name="lastUsedInstant" value="1697880703" />
                   </RecentBranch>
                 </list>
               </option>
@@ -86,9 +61,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "spring-cloud-stream",
-    "last_opened_file_path": "D:/Documents/Learning Notes/Java ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-3x",
+    "last_opened_file_path": "D:/Documents/Learning Notes/Java ☕/Spring/EDA-Kafka/code_source/src2/BulkMessageConsumer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,18 +76,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\src2\BulkMessageConsumer" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\src2\BulkMessageProducer" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-3x" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-consumer" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-producer" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-cloud-stream-consumer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\src2\BulkMessageProducer\src" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-producer" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-producer\src\main\java\com\javatechie\cloudstream\producer\config" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-consumer\src\main\java\com\javatechie\cloudstream\consumer\config.stream" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x" />
-      <recent name="D:\Documents\Learning Notes\Design-Pattern 📊\monolith" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -198,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697805366322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="kafka: basics-consumer">
+      <option name="closed" value="true" />
+      <created>1697880681214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697880681214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +209,8 @@
     <MESSAGE value="design-pattern: reformat" />
     <MESSAGE value="kafka: basics" />
     <MESSAGE value="microservice-design-pattern: saga choreography intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="microservice-design-pattern: saga choreography intro" />
+    <MESSAGE value="kafka: basics-consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka: basics-consumer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

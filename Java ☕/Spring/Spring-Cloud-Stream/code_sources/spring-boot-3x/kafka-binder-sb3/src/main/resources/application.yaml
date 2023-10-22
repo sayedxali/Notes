@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    function:
+      definition: consumerBinding;processorBinding;producerBinding #any_name_can_be_given
+    stream: #map its naming convention to desired topic
+      bindings:
+        #we're telling the kafka binders that
+        #don't created default topic with `consumerBinding-in-0` name instead,
+        #use the destination name that I provided
+        producerBinding-out-0:
+          destination: processor-desired-topic
+        consumerBinding-in-0:
+          destination: consumer-desired-topic
+        processorBinding-in-0:
+          destination: processor-desired-topic
+        processorBinding-out-0:
+          destination: consumer-desired-topic
+      kafka:
+        binder:
+          brokers: localhost:9092 #it'll work even without this since it's default value is `localhost:9092`

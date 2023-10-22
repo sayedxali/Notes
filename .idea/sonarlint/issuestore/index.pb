@@ -15,3 +15,7 @@ dJava ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-st
 dJava ☕/Spring/Spring-Cloud-Stream/code_sources/spring-boot-2x/spring-cloud-stream-producer/pom.xml,a\9\a9fbbfe557d1e80020108e2d2dc527202e853ed5
 ]
 -Java ☕/Spring/Spring-Cloud-Stream/README.md,4\1\41fd6451cf381a2e9c5753b1cc6c6c331b9a2050
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
