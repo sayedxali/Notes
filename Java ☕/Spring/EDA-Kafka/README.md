@@ -29,10 +29,11 @@
     * [Let's Create **Kafka Consumer**](#lets-create-kafka-consumer)
   * [Kafka Producer 2](#kafka-producer-2)
     * [Configure Kafka Producer In KafkaProducerService](#configure-kafka-producer-in-kafkaproducerservice)
-    * [Let's Create **Kafka Topic**](#lets-create-kafka-topic-1)
-    * [Let's Create **Kafka Producer**](#lets-create-kafka-producer-1)
-    * [Let's Create **REST API For Kafka Producer**](#lets-create-rest-api-for-kafka-producer-1)
+    * [Let's Create **Kafka Topic 2**](#lets-create-kafka-topic-2)
+    * [Let's Create **Kafka Producer 2**](#lets-create-kafka-producer-2)
+    * [Let's Create **REST API For Kafka Producer 2**](#lets-create-rest-api-for-kafka-producer-2)
   * [Kafka Consumer 2](#kafka-consumer-2)
+  * [💡 application.yaml file 💡](#-applicationyaml-file-)
 <!-- TOC -->
 
 ## What is event-driven architecture?
@@ -402,13 +403,13 @@ spring:
 > 💡 We need to configure serializers for key and values; whenever the producer sends an event,
 > that event contains the data as key-value pair, and we need to configure the serializers for them!
 
-### Let's Create **Kafka Topic**
+### Let's Create **Kafka Topic 2**
 
 The code source : [KafkaTopicConfig](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/config/KafkaTopicConfig.java)
 
 Firstly we need to retrieve the topic name, and then create a `NewTopic` bean and a build a topic using `TopicBuilder`.
 
-### Let's Create **Kafka Producer**
+### Let's Create **Kafka Producer 2**
 
 The code source : [KafkaProducerService](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/service/KafkaProducerService.java)
 
@@ -416,7 +417,7 @@ The code source : [KafkaProducerService](code_source/src2/BulkMessageProducer/sr
 > 1. Create a msg using `NewTopic` bean (that we configured earlier).
 > 2. Send the msg to the kafka topic using `KafkaTemplate`.
 
-### Let's Create **REST API For Kafka Producer**
+### Let's Create **REST API For Kafka Producer 2**
 
 The code
 source : [EventController](code_source/src2/BulkMessageProducer/src/main/java/com/example/kafkajavatechie.producer/controller/EventController.java)
@@ -427,4 +428,25 @@ source : [EventController](code_source/src2/BulkMessageProducer/src/main/java/co
 ## Kafka Consumer 2
 
 The code source : [code source](./code_source/src2/BulkMessageConsumer)
+ 
+## 💡 application.yaml file 💡
+
+```yml
+spring:
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+    properties:
+      spring:
+        json:
+          type:
+            mapping: event:com.example.sharedlib.event.MessageEvent
+          trusted:
+            packages: "*"
+
+    topic:
+      name: msg-topic-javatechie
+```
  

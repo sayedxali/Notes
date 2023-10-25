@@ -1,2 +1,19 @@
 server:
   port: 8082
+---
+#kafka consumer
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: stock   #1*
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"   #2*
+    topic:
+      name: order_topics   #3*
