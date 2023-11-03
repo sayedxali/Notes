@@ -1,0 +1,11 @@
+
+ú
+java:S1598"ãThis file "OrderDTO.java" should be located in "com\example\sharedlib\model\dto" directory, not in "D:\Documents\Learning Notes\Java â˜•\Spring\EDA-Kafka\code_source\src\OrderService\src\main\java\com\example\orderservice\dto".(èíï©
+A
+java:S1068"+Remove this unused "orderId" private field.(ñÔ»û
+C
+java:S1068"-Remove this unused "orderName" private field.(„·„ê
+G
+java:S1068",Remove this unused "quantity" private field.(­ÞÐòþÿÿÿÿ
+D
+java:S1068")Remove this unused "price" private field.(ËŒÑÎúÿÿÿÿ

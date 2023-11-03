@@ -1,0 +1,9 @@
+
+ü
+java:S1598"åThis file "OrderEvent.java" should be located in "com\example\sharedlib\model\dto" directory, not in "D:\Documents\Learning Notes\Java â˜•\Spring\EDA-Kafka\code_source\src\OrderService\src\main\java\com\example\orderservice\dto".(èíï©
+F
+java:S1068"+Remove this unused "message" private field.(ù„è¿ûÿÿÿÿ
+R
+java:S1068"7Remove this unused "statusOfEvent_Order" private field.(·£¡§ûÿÿÿÿ
+D
+java:S1068")Remove this unused "order" private field.(åï’‘øÿÿÿÿ

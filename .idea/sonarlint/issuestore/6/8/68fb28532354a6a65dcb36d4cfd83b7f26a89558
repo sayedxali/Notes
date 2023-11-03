@@ -1,0 +1,23 @@
+
+0
+java:S1700"Rename field "domain"(€í¼ üÿÿÿÿ
+E
+java:S1068"*Remove this unused "domain" private field.(€í¼ üÿÿÿÿ
+J
+java:S1068"/Remove this unused "create_date" private field.(Ö«ŠŽýÿÿÿÿ
+E
+java:S1068"/Remove this unused "update_date" private field.(î­ÄÍ
+F
+java:S1068"+Remove this unused "country" private field.(“—àÊúÿÿÿÿ
+@
+java:S1068"*Remove this unused "isDead" private field.(û”Üú
+@
+java:S1068"%Remove this unused "A" private field.(‰òšøÿÿÿÿ
+A
+java:S1068"&Remove this unused "NS" private field.(‡“àœÿÿÿÿÿ
+>
+java:S1068")Remove this unused "CNAME" private field.(­¨Ÿs
+<
+java:S1068"&Remove this unused "MX" private field.(ØØ«È
+=
+java:S1068"'Remove this unused "TXT" private field.(€Êä«
