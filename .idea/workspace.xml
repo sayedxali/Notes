@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="websockets: basics and project">
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/images/Screenshot-2023-10-27-160704.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/images/Screenshot-2023-10-27-170834.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/images/Screenshot-2023-10-27-171024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/images/Screenshot-2023-10-27-171227.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/images/Screenshot-2023-10-27-171255.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-MVC/spring-mvc.md" afterDir="false" />
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="spring-mvc: basics">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,24 +59,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "spring-mvc",
-    "last_opened_file_path": "D:/Documents/Learning Notes/Java ☕/Spring/Spring-MVC/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;spring-mvc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Learning Notes/Java ☕/Spring/Spring-MVC/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC\images" />
@@ -122,6 +117,8 @@
       <workItem from="1698137864179" duration="3847000" />
       <workItem from="1698218387620" duration="2465000" />
       <workItem from="1698247429590" duration="1674000" />
+      <workItem from="1698664447324" duration="1087000" />
+      <workItem from="1698743385574" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -203,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697967975215</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="spring-mvc: basics">
+      <option name="closed" value="true" />
+      <created>1698414319814</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698414319814</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +238,8 @@
     <MESSAGE value="kafka: basics-consumer" />
     <MESSAGE value="spring-cloud-stream: sb3 + project with scs!" />
     <MESSAGE value="websockets: basics and project" />
-    <option name="LAST_COMMIT_MESSAGE" value="websockets: basics and project" />
+    <MESSAGE value="spring-mvc: basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-mvc: basics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
