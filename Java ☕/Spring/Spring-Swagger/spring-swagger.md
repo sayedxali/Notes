@@ -5,6 +5,7 @@
   * [What is Swagger?](#what-is-swagger)
   * [Why do we use Swagger?](#why-do-we-use-swagger)
   * [How to add Swagger to Spring Boot application?](#how-to-add-swagger-to-spring-boot-application)
+  * [The Source Code](#the-source-code)
 <!-- TOC -->
 
 ## What is Swagger?
@@ -23,10 +24,10 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
    > 💡 Note: There are 2 different libraries for generating OpenAPI/Swagger specifications in Spring Boot projects.
    >
    > - SpringFox (older):
-       >
-    - supports the Swagger 2.0 specification. It uses Swagger annotations to generate the API docs.
-      >
-    - uses Java configuration
+   >
+   > - supports the Swagger 2.0 specification. It uses Swagger annotations to generate the API docs.
+   >
+   > - uses Java configuration
    >
    > The dependency for `springfox` was:
    >   ```xml
@@ -36,9 +37,9 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
    >        <version>2.9.2</version>
    >    </dependency>
    >   ```
-   > - SpringDoc (newer):
-       >
-    - supports Spring-Boot v3.x
+
+2. SpringDoc (newer):
+   > - supports Spring-Boot v3.x
    > - uses autoconfiguration in Spring Boot
    >   - user-friendly UI
    >   - support for Spring Boot features like Actuator endpoints
@@ -73,7 +74,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
    Hit this endpoint: `http://localhost:8080/v3/api-docs` to access the JSON format documentation.
 
    Hit this endpoint: `http://localhost:8080/swagger-ui/index.html` to access the ui format documentation.
-2. Configuring Swagger.
+3. Configuring Swagger.
    ```java
       @OpenAPIDefinition(
         info = @Info(
@@ -105,7 +106,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
       public class OpenAPIConfig {
       }
    ```
-3. Adding details as annotations to APIs.
+4. Adding details as annotations to APIs.
    ```java
     @RestController
     @RequiredArgsConstructor
@@ -122,7 +123,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
         }
    }
    ```
-4. If you are using `Spring-Security`, don't forget to permit the swagger and springdoc urls.
+5. If you are using `Spring-Security`, don't forget to permit the swagger and springdoc urls.
    ```java
     @Bean 
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -152,7 +153,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
        }
    }
    ```
-5. If you are using JWT:
+6. If you are using JWT:
 
    ![](images/Image_002.jpg)
    
@@ -163,3 +164,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
 A few examples:
 
 ![](images/Image_004.jpg)
+
+## The Source Code
+
+The source code : [source](./src/main)
