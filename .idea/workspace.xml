@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="hibernate: basics">
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="swagger-ui: added source code">
+      <change afterPath="$PROJECT_DIR$/youtube-channels-main.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/spring-swagger.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/spring-swagger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/SpringSwagger2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/SpringSwaggerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/OpenAPIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/OpenAPIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/jwt/JWTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/jwt/JWTService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/jwt/filter/JWTAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/jwt/filter/JWTAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/jwt/filter/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/jwt/filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/config/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/controller/SecuredAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/controller/SecuredAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/model/request/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/model/request/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/model/request/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/model/request/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/model/response/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/model/response/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger2/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Swagger/src/main/java/com/example/springswagger/service/AuthenticationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +49,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="spring-mvc" />
-                    <option name="lastUsedInstant" value="1698409958" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1700031878" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1697880703" />
+                    <option name="branchName" value="swagger-ui" />
+                    <option name="lastUsedInstant" value="1700031710" />
                   </RecentBranch>
                 </list>
               </option>
@@ -77,11 +96,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Swagger" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC\images" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-WebSockets\code_sources" />
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-3x" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\sb3-project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC\images" />
@@ -118,6 +137,8 @@
       <workItem from="1698664447324" duration="1087000" />
       <workItem from="1698743385574" duration="2018000" />
       <workItem from="1699028588088" duration="346000" />
+      <workItem from="1700674684464" duration="487000" />
+      <workItem from="1700728908068" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -238,7 +259,8 @@
     <MESSAGE value="spring-cloud-stream: sb3 + project with scs!" />
     <MESSAGE value="websockets: basics and project" />
     <MESSAGE value="spring-mvc: basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-mvc: basics" />
+    <MESSAGE value="swagger-ui: added source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger-ui: added source code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

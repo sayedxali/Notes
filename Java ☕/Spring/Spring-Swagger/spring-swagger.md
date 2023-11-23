@@ -74,7 +74,7 @@ Spring Swagger is an API documentation tool used for documenting RESTful APIs.
    Hit this endpoint: `http://localhost:8080/v3/api-docs` to access the JSON format documentation.
 
    Hit this endpoint: `http://localhost:8080/swagger-ui/index.html` to access the ui format documentation.
-3. Configuring Swagger.
+3. Configuring Swagger. [The source code](src/main/java/com/example/springswagger/config/OpenAPIConfig.java)
    ```java
       @OpenAPIDefinition(
         info = @Info(
