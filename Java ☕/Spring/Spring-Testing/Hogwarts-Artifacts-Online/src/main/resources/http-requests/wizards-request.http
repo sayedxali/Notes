@@ -1,0 +1,34 @@
+# group: Wizards
+# @name Add a wizard
+POST {{BaseURL}}/wizards
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "numberOfArtifacts": 1
+}
+
+###
+# group: Wizards
+# @name Find all wizards
+GET {{BaseURL}}/wizards
+
+###
+# group: Wizards
+# @name Find a wizard by id
+GET {{BaseURL}}/wizards/1
+
+###
+# group: Wizards
+# @name Update a wizard
+PUT {{BaseURL}}/wizards/1
+Content-Type: application/json
+
+{
+  "name": "SeyedAli"
+}
+
+###
+# group: Wizards
+# @name Delete a wizard
+DELETE {{BaseURL}}/wizards/1

@@ -1,0 +1,25 @@
+# group: Artifacts
+# @name Find an artifact by id
+GET {{BaseURL}}/artifacts/12334545
+
+###
+# group: Artifacts
+# @name Find all artifacts
+GET {{BaseURL}}/artifacts
+
+###
+# group: Artifacts
+# @name Add an artifacts
+POST {{BaseURL}}/artifacts
+Content-Type: application/json
+
+{
+  "name": "Rememberall",
+  "description": "Description.",
+  "imageUrl": "ImageUrl"
+}
+
+###
+# group: Artifacts
+# @name Delete an artifact
+DELETE {{BaseURL}}/artifacts/21356465

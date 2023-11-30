@@ -1,0 +1,46 @@
+# group: Users
+# @name Find a user by id
+GET {{BaseURL}}/users/1
+
+###
+# group: Users
+# @name Find all users
+GET {{BaseURL}}/users
+Authorization: Bearer {{token}}
+
+###
+# group: Users
+# @name Add a user
+POST {{BaseURL}}/users
+Content-Type: application/json
+
+{
+  "username": "username",
+  "password": "password",
+  "enabled": true,
+  "roles": "admin user"
+}
+
+###
+# group: Users
+# @name Delete a user
+DELETE {{BaseURL}}/users/1
+Authorization: Bearer {{token}}
+
+###
+# group: Users
+# @name Update a user
+PUT {{BaseURL}}/users/1
+Content-Type: application/json
+
+{
+  "username": "updated-username",
+  "enabled": false,
+  "roles": "admin"
+}
+
+###
+# group: Users
+# @name Login
+POST {{BaseURL}}/users/login
+Authorization: Basic eric 654321
