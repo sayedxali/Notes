@@ -117,6 +117,17 @@ In order to package our application;
 4. This application will fail to run and the cause is that postgres cannot connect
 to the application. To resolve this; Network!
 
+### Packaging our spring-boot application into docker image - BingYang Wei
+
+[the source](./Dockerfile-bingyangwei)
+
+the reason is :
+
+![](./images/Screenshot%202023-11-30%20145426.png)
+
+![](./images/Screenshot%202023-11-30%20145551.png)
+ 
+
 ## Docker Networking
 **How can we communicate different docker containers between each other?**
 
