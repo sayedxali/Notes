@@ -1,0 +1,15 @@
+### create task
+< {%
+    request.variables.set("projectId", "1")
+%}
+POST {{host}}/api/v1/task/management/newTask/{{projectId}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "taskName": "demoTask3",
+  "description": "description for demo task",
+  "taskStatus": "IN_PROGRESS",
+  "dueDate": "2023-08-23T00:00:00",
+  "taskPriority": "HIGH"
+}

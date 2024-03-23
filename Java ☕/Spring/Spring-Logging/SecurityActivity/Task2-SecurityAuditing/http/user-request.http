@@ -1,0 +1,40 @@
+### Authentication
+POST http://localhost:8080/api/v1/users/login
+Authorization: Basic user user
+
+
+
+
+### List of users
+GET http://localhost:8080/api/v1/users
+Authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoidXNlciIsImV4cCI6MTcxMDg2MDQ3MywiaWF0IjoxNzEwODUzMjczLCJ1c2VySWQiOjIsImF1dGhvcml0aWVzIjoiUk9MRV91c2VyIn0.JTcfbayTPGKlBtTMi2H8EeeS8aH6xnCdXXdkjJmYR9buSxy8IZjDMYYZrNH-bDVCv3BTfB2FmYjeWeV5HKXROhORyBzBuZz2QVfhbhTuEUJOHuxswOUBEfNgCUMvLk_P88Lkv_rH8WSmHCrnD3xkpB6sofJ2q4g7GGqZnN7Jc0yUQSo0ucf6sst9a1xESRioM7_H8V0mQ5BHSg6FB8ezuj0CRLVEU1ewqq2g-mdaZQAnE0YqhMw6EsjtHmS-QnEKtTE0kvKN6y1l5wCrU7oFgzRaKj4pmv6vcFT9MjjihBsglIJ_d1ZRyrvJIX1s0_7S_O3i79WBMK_GQsZNeZkYrA
+
+
+
+
+### 10_000 index
+GET http://localhost:8080/log/public
+
+
+
+
+### Different logs
+GET http://localhost:8080/log/public/act
+
+
+
+
+### Change log level
+GET http://localhost:8080/log/public/change-log-level-to/error
+
+
+
+
+### Actuator
+POST http://localhost:8080/actuator/loggers/root
+Content-Type: application/json
+
+{
+  "configuredLevel": "TRACE"
+}
+

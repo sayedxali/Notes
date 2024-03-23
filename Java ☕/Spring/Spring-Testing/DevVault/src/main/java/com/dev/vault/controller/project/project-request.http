@@ -1,0 +1,9 @@
+### create project
+POST {{host}}/api/v1/proj_leader/create-group
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "projectName": "demo project",
+  "projectDescription": "description for project1"
+}

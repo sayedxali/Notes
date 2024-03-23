@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: Spring Boot Rest API
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:mem:test-api
+  jpa:
+    database: H2
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+
+account:
+  verification:
+    auth:
+      url: "http://localhost:8080/api/auth/accountVerification/"
+filter:
+  token:
+    prefix: "Bearer "
+api:
+  endpoint:
+    base-url: /api/v1
+  #mail properties
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL}
+    password: ${PASSWORD}
+    protocol: smtp
+    properties.mail.smtp:
+      tls: true
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com

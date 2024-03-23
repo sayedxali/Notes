@@ -1,0 +1,75 @@
+# Contents
+<!-- TOC -->
+* [Contents](#contents)
+* [Logback](#logback)
+* [Changing log-level during runtime](#changing-log-level-during-runtime)
+<!-- TOC -->
+
+# Logback
+
+[Source Code](Logging_Logback_JWTSecurityAuditing/src/main/resources)
+
+Create a `logback.xml` file and put some configuration in there.
+
+The main configuration would be `Console`, `File` and `RollingPolicy` of logging.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="15 seconds">
+
+<!--    <property name="LOG_PATTERN" value="%black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1}): %msg%n%throwable"/>-->
+<!--    <property name="LOG_PATTERN" value="%d %p %C{1.} [%t] %m%n"/> has_error-->
+    <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"/>
+    <property name="CONSOLE_LOG_PATTERN" value="%black(%d{yyyy-MM-dd HH:mm:ss}) %white([%thread]) %highlight(%-5level) %cyan(%logger{36}) - %magenta(%msg%n)"/>
+    <property name="LOG_DIR" value="./logs"/>
+
+    <!-- Console logs -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                ${CONSOLE_LOG_PATTERN}
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- File logs -->
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>./logs/application.log</file>
+
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+
+        <!-- Rollover on Startup, Daily and when the file Reaches 10MegaBytes -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>
+                ./logs/archive/%d{yyyy/MM/dd/HH-mm}/application-%d{yyyy-MM-dd_hhmmss}-%i.log.gz
+            </fileNamePattern>
+            <maxFileSize>10KB</maxFileSize>
+            <maxHistory>2</maxHistory>
+        </rollingPolicy>
+
+    </appender>
+
+
+    <!-- Package level logging -->
+    <logger name="com.seyed.ali.task2securityauditing.controller.LogController" level="INFO"/>
+
+    <!-- Root level logging -->
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROLLING_FILE"/>
+    </root>
+
+</configuration>
+```
+
+# Changing log-level during runtime
+
+We can change the log level during runtime of the application without stopping it.
+
+There are 3 ways that I found:
+1. Actuator (recommended)
+2. Controller
+3. Change the `logback.xml` file's source from <kbd>/target/classes/logback.xml</kbd> 

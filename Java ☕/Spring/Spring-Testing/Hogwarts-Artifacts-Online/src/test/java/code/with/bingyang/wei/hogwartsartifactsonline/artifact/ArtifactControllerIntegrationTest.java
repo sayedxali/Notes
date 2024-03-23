@@ -39,7 +39,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 class ArtifactControllerIntegrationTest {
 
     private @Autowired MockMvc mockMvc;
-    private @Autowired ObjectMapper objectMapper;
+    private @Autowired ObjectM  apper objectMapper;
 
     @Value("${api.endpoint.base-url}")
     private String baseUrl;

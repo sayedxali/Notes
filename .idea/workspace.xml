@@ -4,8 +4,386 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="swagger-ui: added source code">
-      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/development-process.md" afterDir="false" />
+    <list default="true" id="326a452e-db01-4d98-96a1-7690227862f2" name="Changes" comment="docker &amp; security">
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/pom.xml" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/SolidDcbApplication.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/SolidDcbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/AddOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/Calculator.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/SubOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/bad/SubOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/AddOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/Calculator.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/CalculatorOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/CalculatorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/SubOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/dcb/good/SubOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/CreditCard.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/DebitCard.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/ShoppingMall.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/bad/ShoppingMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/BankCard.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/BankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/CreditCard.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/DebitCard.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/ShoppingMall.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/d/javatechie/good/ShoppingMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/BadDAOInterface.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/BadDAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/DAOConnectionImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/DAOConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/FileDAOConnectionImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/bad/FileDAOConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DAOInterface.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DBConnectionImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DBConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DBConnectionInterface.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/DBConnectionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/FileDAOConnectionImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/FileDAOConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/FileInterface.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/dcb/good/FileInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/GooglePayImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/GooglePayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/PayTmImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/PayTmImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/PhonePeImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/PhonePeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/UPIPayments.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/bad/UPIPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/CashbackManager.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/CashbackManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/GooglePayImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/GooglePayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/PayTmImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/PayTmImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/PhonePeImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/PhonePeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/UPIPayments.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/i/javatechie/good/UPIPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/CreditCardLoanImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/CreditCardLoanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/HomeLoanImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/HomeLoanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/LoanClosureService.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/LoanClosureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/LoanPayment.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/bad/LoanPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/CreditCardLoanImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/CreditCardLoanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/HomeLoanImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/HomeLoanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/LoanClosureService.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/LoanClosureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/LoanPayment.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/LoanPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/SecureLoan.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/dbc/good/SecureLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/FacebookImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/FacebookImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/InstagramImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/InstagramImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/SocialMedia.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/SocialMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/WhatsappImpl.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/bad/WhatsappImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Facebook.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Instagram.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/PostMediaManager.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/PostMediaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/SocialMedia.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/SocialMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/SocialVideoCallManager.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/SocialVideoCallManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Whatsapp.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/l/javatechie/good/Whatsapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/bad/Calculator.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/bad/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/good/AddOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/good/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/good/Calculator.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/good/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/good/Main.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/good/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/good/Operation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/good/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/o/good/SubstractOperation.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/o/good/SubstractOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/s/Account.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/s/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/s/Main.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/s/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/s/README.md" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/s/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/s/bad/AccountOperations.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/s/bad/AccountOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern /SOLID/src/main/java/com/dcb/soliddcb/s/good/TransactionOperations.java" afterPathEscaped="$PROJECT_DIR$/Design-Pattern 📊/SOLID/src/main/java/com/dcb/soliddcb/s/good/TransactionOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/Docker-Mongodb-Springboot.md" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/Docker-Mongodb-Springboot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/Dockerfile" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/docker-compose.yml" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/SbMongoDockerApplication.java" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/SbMongoDockerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/controller/UserController.java" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/controller/user-request.http" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/controller/user-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/mongo/User.java" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/mongo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/repository/UserRepository.java" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/java/docker/mongodb/service/UserService.java" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/java/docker/mongodb/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker /mongo/src/main/resources/application.yaml" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/mongo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Application-Development-Process/images/Screenshot 2023-11-23 174435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Application-Development-Process/spring-development-process.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/JavatechieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/dto/APIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Data-JPA/Pagination &amp; Sorting/src/main/java/com/pagination/javatechiepaginationsorting/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/ELK-Stack/ELK-JavaTechie.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/EngineeringDigest_And_TheJavaMindset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/http/user-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/Task2SecurityAuditingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/audit/AuditLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/audit/AuditingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/CorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBasicAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBearerTokenAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBearerTokenAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/JwtConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/exception/ExceptionHandlerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/exception/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/dto/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/HogwartsUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/MyUserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/UserActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/enums/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/response/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/repository/UserActivityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/scheduler/TimeScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/LogServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/DBDataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/converter/UserDtoToUserConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/converter/UserToUserDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/resources/logback-satrap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/Logback/Logging_Logback_JWTSecurityAuditing/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Myself.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/http/user-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/Task2SecurityAuditingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/audit/AuditLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/audit/AuditingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/CorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBasicAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBearerTokenAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/CustomBearerTokenAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/JwtConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/config/security/jwt/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/exception/ExceptionHandlerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/exception/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/dto/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/HogwartsUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/MyUserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/entity/UserActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/enums/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/model/response/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/repository/UserActivityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/scheduler/TimeScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/LogServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/DBDataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/converter/UserDtoToUserConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/java/com/seyed/ali/task2securityauditing/util/converter/UserToUserDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/resources/logback-satrap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Logging/SecurityActivity/Task2-SecurityAuditing/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/Keycloak.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/keycloak1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/keycloak2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/keycloak3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/img/okta9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/config/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/exceptions/GatewayExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/java/com/dev/vault/api/gateway/filter/RouteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/API-Gateway-DevVault/src/test/java/com/dev/vault/api/gateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ApiGateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ApiGateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ApiGateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/config/interceptors/OAuthRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/config/interceptors/RestTemplateInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/config/security/OktaOAuth2WebSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/exceptions/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/exceptions/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/external/client/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/external/client/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/external/decoder/CustomErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/external/response/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/enums/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/request/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/request/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/response/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/response/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/model/response/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/java/com/example/OrderService/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/resources/OrderService - UML Class Diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/java/com/example/OrderService/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/java/com/example/OrderService/config/OrderServiceTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/java/com/example/OrderService/config/TestServiceInstanceListSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/java/com/example/OrderService/integration/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/java/com/example/OrderService/service/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/resources/mock/GetPaymentMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/OrderService/src/test/resources/mock/GetProductMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ServiceRegistry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ServiceRegistry/src/main/java/com/example/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Microservices/src_dcb/ServiceRegistry/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/README-DiveIntoDevelopment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Security/KeyCloak/Monolith/img/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/DevVaultApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/handler/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/handler/LogoutHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/jwt/filter/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/jwt/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/config/swagger/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/authentication/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/authentication/auth-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/comment/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/project/JoinCouponController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/project/JoinRequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/project/ProjectManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/project/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/project/project-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/task/TaskAssignmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/task/TaskManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/task/TaskProgressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/controller/task/task-request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/AuthenticationFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/DevVaultException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/NotLeaderOfProjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/NotMemberOfProjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/ResourceAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/dto/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/email/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/group/JoinProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/group/JoinResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/group/ProjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/group/ProjectMembersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/group/SearchResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/task/TaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/task/TaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/helper/payload/user/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/comment/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/JoinCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/JoinProjectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/ProjectMembers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/UserProjectRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/project/enums/JoinStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/task/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/task/enums/TaskPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/task/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/VerificationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/jwt/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/model/user/jwt/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/DBDataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/comment/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/project/JoinCouponRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/project/JoinProjectRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/project/ProjectMembersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/project/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/project/UserProjectRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/task/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/user/RolesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/user/VerificationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/repository/user/jwt/JwtTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/scheduler/ProjectTaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/comment/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/project/JoinCouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/project/JoinRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/project/ProjectManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/project/SearchProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/task/TaskAssignmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/task/TaskManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/task/TaskProgressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/interfaces/user/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/comment/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/mail/MailContentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/mail/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/project/JoinCouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/project/JoinRequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/project/ProjectManagementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/project/SearchProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/task/TaskAssignmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/task/TaskManagementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/task/TaskProgressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/service/module/user/AuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/comment/CommentUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/project/JoinRequestProjectUtilsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/project/ProjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/project/ProjectUtilsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/repository/RepositoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/task/TaskUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/java/com/dev/vault/util/user/AuthenticationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/resources/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/resources/reason_to_implement_reactive_webflux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/main/resources/templates/mailTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/DevVaultApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/controller/authentication/AuthenticationControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/controller/authentication/AuthenticationControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/controller/authentication/DemoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/controller/project/ProjectManagementControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/controller/project/ProjectManagementControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/project/ProjectRepositoryNegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/project/ProjectRepositoryPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/task/TaskRepositoryNegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/task/TaskRepositoryPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/user/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/user/jwt/JwtTokenRepositoryNegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/repository/user/jwt/JwtTokenRepositoryPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/project/JoinCouponServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/project/JoinRequestServiceNegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/project/JoinRequestServicePositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/project/ProjectManagementServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/project/SearchProjectServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/task/TaskManagementServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/java/com/dev/vault/service/module/task/TaskProgressServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/DevVault/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker /Docker-alibou.md" beforePathEscaped="$PROJECT_DIR$/Docker 🐳/Docker-alibou.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docker /postgre/Docker-alibou.md" afterPathEscaped="$PROJECT_DIR$/Docker 🐳/postgre/Docker-alibou.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/Hogwarts-Artifacts-Online/src/test/java/code/with/bingyang/wei/hogwartsartifactsonline/artifact/ArtifactControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/Hogwarts-Artifacts-Online/src/test/java/code/with/bingyang/wei/hogwartsartifactsonline/artifact/ArtifactControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/spring-boot-testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java ☕/Spring/Spring-Testing/spring-boot-testing.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +424,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,39 +438,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Learning Notes/Java ☕/Spring/Spring-MVC/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Install-Kafka-With-Docker: Compose Deployment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/Learning Notes/Java ☕/Spring/Spring-Logging/SecurityActivity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Swagger" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC\images" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-WebSockets\code_sources" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-3x" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Logging\SecurityActivity" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Logging" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Security\KeyCloak\Monolith\img" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Microservices\src" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Microservices" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-MVC\images" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\sb3x-project\web-domain-service\domain-processor\src\main\java\com\techprimers\domainprocessor\domaincrawler\domain" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\EDA-Kafka\code_source\src2\BulkMessageProducer\src" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-producer" />
-      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Cloud-Stream\code_sources\spring-boot-2x\spring-cloud-stream-producer\src\main\java\com\javatechie\cloudstream\producer\config" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Logging" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Logging\Logback" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Security\KeyCloak\Monolith\img" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Security\KeyCloak\Monolith\img10" />
+      <recent name="D:\Documents\Learning Notes\Java ☕\Spring\Spring-Microservices\src_dcb" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Install-Kafka-With-Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Java ☕/Spring/EDA-Kafka/code_source/Install-Kafka-With-Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Install-Kafka-With-Docker: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-3183f394aec4-38982a12" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,6 +532,39 @@
       <workItem from="1700674684464" duration="487000" />
       <workItem from="1700728908068" duration="1986000" />
       <workItem from="1700748742172" duration="1755000" />
+      <workItem from="1701339519672" duration="1773000" />
+      <workItem from="1701344337118" duration="155000" />
+      <workItem from="1701382805285" duration="3819000" />
+      <workItem from="1701622961187" duration="685000" />
+      <workItem from="1702289437142" duration="2054000" />
+      <workItem from="1702545410631" duration="1888000" />
+      <workItem from="1702623205315" duration="844000" />
+      <workItem from="1702725865258" duration="971000" />
+      <workItem from="1703146031885" duration="2597000" />
+      <workItem from="1703171282546" duration="1061000" />
+      <workItem from="1703218932966" duration="3157000" />
+      <workItem from="1703324837154" duration="1908000" />
+      <workItem from="1703410260407" duration="1659000" />
+      <workItem from="1703756548711" duration="41000" />
+      <workItem from="1703756995277" duration="4000" />
+      <workItem from="1704707050552" duration="1866000" />
+      <workItem from="1705001758753" duration="2501000" />
+      <workItem from="1707536979194" duration="5771000" />
+      <workItem from="1707556355204" duration="1406000" />
+      <workItem from="1707580164873" duration="1478000" />
+      <workItem from="1707672473752" duration="4028000" />
+      <workItem from="1707729215340" duration="1193000" />
+      <workItem from="1708082872784" duration="333000" />
+      <workItem from="1708167407841" duration="356000" />
+      <workItem from="1708679881177" duration="2549000" />
+      <workItem from="1708756671931" duration="4473000" />
+      <workItem from="1708766958532" duration="1646000" />
+      <workItem from="1710319669630" duration="3526000" />
+      <workItem from="1710373639501" duration="1140000" />
+      <workItem from="1710404108300" duration="753000" />
+      <workItem from="1710406470082" duration="9495000" />
+      <workItem from="1710487502612" duration="548000" />
+      <workItem from="1711188812107" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -218,7 +662,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700748772686</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="docker &amp; security">
+      <option name="closed" value="true" />
+      <created>1701344219042</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701344219042</updated>
+    </task>
+    <task id="LOCAL-00014" summary="docker &amp; security">
+      <option name="closed" value="true" />
+      <created>1701344288129</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701344288129</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +710,8 @@
     <MESSAGE value="websockets: basics and project" />
     <MESSAGE value="spring-mvc: basics" />
     <MESSAGE value="swagger-ui: added source code" />
-    <option name="LAST_COMMIT_MESSAGE" value="swagger-ui: added source code" />
+    <MESSAGE value="docker &amp; security" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker &amp; security" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

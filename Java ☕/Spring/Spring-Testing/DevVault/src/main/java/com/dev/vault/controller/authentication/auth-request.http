@@ -1,0 +1,21 @@
+### register
+POST {{host}}/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username": "User2",
+  "email": "user2122@gmail.com",
+  "password": "User123@",
+  "age": 0,
+  "education": "",
+  "major": ""
+}
+
+### login
+POST {{host}}/api/v1/auth/authenticate
+Content-Type: application/json
+
+{
+  "email": "seyed@gmail.com",
+  "password": "pass"
+}
